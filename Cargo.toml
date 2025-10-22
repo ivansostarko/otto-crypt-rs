@@ -1,0 +1,16 @@
+[package]
+name = "otto-crypt"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Ivan Doe"]
+
+[dependencies]
+aes-gcm = "0.10"
+hkdf = "0.12"
+sha2 = "0.10"
+rand = "0.8"
+x25519-dalek = "2"
+zeroize = "1"
+anyhow = "1"
+base64 = "0.22"
